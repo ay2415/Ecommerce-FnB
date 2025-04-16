@@ -45,7 +45,7 @@ function App() {
   return (
     <CartProvider> {/* Wrap with CartProvider */}
       <div className="app-wrapper">
-        <Navbar user={user} admin={admin} handleLogout={handleLogout} handleAdminLogout={handleAdminLogout} />
+        <Navbar user={user} admin={admin } handleLogout={handleLogout} handleAdminLogout={handleAdminLogout} />
         <div className="content-wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
