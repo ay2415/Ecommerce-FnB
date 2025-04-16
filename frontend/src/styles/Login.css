@@ -1,0 +1,39 @@
+.login-container {
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .btn-success {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-success:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+  }
+  
+  .register-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2575fc;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
